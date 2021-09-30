@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'); 
+
+:root {
+    --primary:#a6a6a7;     
+}
+
+.container {
+    max-width:600px;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(59, 54, 54);
+    color: #FFF;    
+}
+
+input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+button {
+  background: var(--primary);
+  border: none;  
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;  
+}
+
+h2 {    
+    display: block;
+    margin: 1rem;
+    color: var(--primary);
+}
+
+label, p {    
+    display: block;
+    margin: 1rem;
+    font-size: medium;
+}
+
+/* Table */
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  
+  th,
+  td {
+    border: 2px solid var(--primary);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+  }
+
+  /* footer */
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;    
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  padding: 0.2rem;
+}
+
+img {
+  width: 40px;  
+  background: var(--primary);
+}
